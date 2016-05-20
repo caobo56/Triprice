@@ -16,7 +16,6 @@
 {
     self = [super init];
     if (self) {
-        
         [self initUI];
     }
     return self;
