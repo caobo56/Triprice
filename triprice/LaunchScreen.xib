@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Tf1-3I-NDY">
+                    <rect key="frame" x="107" y="70" width="106" height="106"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="106" id="Ipw-Pa-5Ee"/>
+                        <constraint firstAttribute="width" constant="106" id="dHT-kJ-nBw"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start_plane" translatesAutoresizingMaskIntoConstraints="NO" id="hL7-Q9-gMN">
+                    <rect key="frame" x="0.0" y="192" width="245" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="245" id="eRa-kV-wrn"/>
+                        <constraint firstAttribute="height" constant="200" id="tnh-2F-ajq"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start_title" translatesAutoresizingMaskIntoConstraints="NO" id="mOQ-7P-s2V">
+                    <rect key="frame" x="104" y="438" width="113" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="6PP-fF-fDX"/>
+                        <constraint firstAttribute="width" constant="113" id="AOf-xe-IcL"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.098039215690000001" green="0.52156862749999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="hL7-Q9-gMN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Er0-Xq-S1c"/>
+                <constraint firstAttribute="bottom" secondItem="mOQ-7P-s2V" secondAttribute="bottom" constant="26" id="Exn-bh-98g"/>
+                <constraint firstAttribute="centerX" secondItem="Tf1-3I-NDY" secondAttribute="centerX" id="Pdw-kh-9AD"/>
+                <constraint firstAttribute="centerX" secondItem="hL7-Q9-gMN" secondAttribute="centerX" constant="38.5" id="UaU-7w-SfE"/>
+                <constraint firstItem="Tf1-3I-NDY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="70" id="cbO-Tn-uKY"/>
+                <constraint firstAttribute="centerX" secondItem="mOQ-7P-s2V" secondAttribute="centerX" constant="-0.5" id="qKe-Tr-EhH"/>
+                <constraint firstItem="hL7-Q9-gMN" firstAttribute="top" secondItem="Tf1-3I-NDY" secondAttribute="bottom" constant="16" id="z2K-ZX-gHf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="UaU-7w-SfE"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="349" y="386"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="start_logo" width="106" height="106"/>
+        <image name="start_plane" width="245" height="200"/>
+        <image name="start_title" width="113" height="16"/>
+    </resources>
+</document>
