@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 use_frameworks!
 
 pod 'ReactiveCocoa':'~> 2.4.4'
@@ -55,3 +56,13 @@ swift,cocoapods,git,ReactiveCocoa,MVVM
 
 
 
+=======
+platform :ios, '8.0'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'JGProgressHUD'
+pod 'FDFullscreenPopGesture'
+pod 'MBProgressHUD'
+>>>>>>> b2d66a2816d41bf8aa9828123476c389abcbf7fa
